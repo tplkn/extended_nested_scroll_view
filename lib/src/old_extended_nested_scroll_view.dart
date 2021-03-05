@@ -1278,6 +1278,10 @@ class _NestedScrollPosition extends ScrollPosition
   }
 
   @override
+  void pointerScroll(double delta) {
+  }
+
+  @override
   void restoreScrollOffset() {
     if (coordinator.canScrollBody) {
       super.restoreScrollOffset();
